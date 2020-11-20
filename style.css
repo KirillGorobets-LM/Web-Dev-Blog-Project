@@ -119,6 +119,48 @@ nav {
 .square-text {
     font-size: 14px;
 }
+.apartments {
+    background: #f6f5f4;
+    padding: 60px 0;
+}
+.apart h2 {
+    margin-bottom: 85px;
+    font-size: 40px;
+}
+.cards {
+    max-width: 348px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.card-container {
+    padding: 25px;
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.card-info .money {
+    font-size: 18px;
+    color: #ffcc01;
+}
+.card-info i {
+    margin-right: 12px;
+}
+.card-info span:first-child {
+    margin-right: 18px;
+}
+.cards:hover {
+    background: #fafaf9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.allcards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
 
 @media screen and (max-width: 765px) {
     .toggle{
@@ -209,10 +251,15 @@ nav {
    .stats-text h2 {
        font-size: 40px;
        margin-top: 5px;
-       margin-bottom: 30px;
+       margin-bottom: 20px;
    }
    .stats-text p {
-       margin-top: 15px;
+       margin-top: 5px;
+       font-size: 13px;
+       line-height: 18px;
+   }
+   .square {
+       height: 140px;
    }
 
 }
