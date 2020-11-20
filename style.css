@@ -82,7 +82,43 @@ nav {
     margin-right: 60px;
     font-size: 18px;
 }
-
+.stats {
+    display: flex;
+    margin-top: 130px;
+}
+.stats-line {
+    display: flex;
+}
+.stats-text {
+    padding-right: 40px;
+}
+.stats-text h2 {
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+.stats-text p {
+    font-size: 13px;
+    margin-top: 50px;
+    line-height: 27px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #f6f5f4;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.stats-square {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #ffcc01;
+}
+.square-text {
+    font-size: 14px;
+}
 
 @media screen and (max-width: 765px) {
     .toggle{
@@ -162,6 +198,21 @@ nav {
    .intro-contacts p {
        font-size: 14px;
        margin-right: 0;
+   }
+   .stats {
+       margin-top: 0;
+       flex-direction: column;
+   }
+   .stats-text {
+       padding: 20px;
+   }
+   .stats-text h2 {
+       font-size: 40px;
+       margin-top: 5px;
+       margin-bottom: 30px;
+   }
+   .stats-text p {
+       margin-top: 15px;
    }
 
 }
